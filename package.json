@@ -5,15 +5,14 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "test": "jest",
     "production": "node dist/server.js",
-    "start": "node dist/server.js",
     "postinstall": "tsc",
+    "start": "node dist/server.js",
     "watch-node": "nodemon dist/server.js",
     "watch-ts": "tsc -w",
-
     "dev:server": "ts-node-dev -r tsconfig-paths/register --inspect --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts",
-    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
-    "test": "jest"
+    "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
