@@ -33,6 +33,7 @@
     "ts-node": "^8.10.2",
     "tsyringe": "^4.2.0",
     "typeorm": "^0.2.24",
+    "tsconfig-paths": "^3.9.0",
     "uuidv4": "^6.1.0"
   },
   "devDependencies": {
