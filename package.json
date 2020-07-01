@@ -15,7 +15,8 @@
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
   },
   "engines": {
-    "node": "12.7.0"
+    "node": "12.7.0",
+    "npm": "6.10.0"
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
